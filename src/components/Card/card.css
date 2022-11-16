@@ -1,0 +1,69 @@
+.card {
+    box-sizing: border-box;
+    width: 292px;
+    height: 372px;
+/* White lin */
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+/* FADE */
+    border: 1px solid #D7D7D7;
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+
+.desert {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.p-desert {
+    font-weight: 400;
+    font-size: 12px;
+    
+/* identical to box height, or 110% */
+
+
+/* text black */
+
+    color: #434343;
+}
+
+.s-desert {
+    font-weight: 700;
+    font-size: 12px;
+/* identical to box height, or 110% */
+
+
+/* text black */
+
+    color: #434343;
+}
+
+.distance {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.1rem;
+}
+
+.p-distance {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color: #434343;
+}
+
+.s-distance {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+
+/* text black */
+
+    color: #434343;
+}

@@ -1,0 +1,10 @@
+.s-footer {
+    margin-top: 5.75rem;
+}
+
+@media (max-width: 865px) {
+    .stay {
+       align-items: center;
+        overflow: none;
+    }
+}

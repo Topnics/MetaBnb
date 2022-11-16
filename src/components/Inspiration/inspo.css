@@ -1,0 +1,74 @@
+.inspo {
+    margin: 19px 100px 53px 100px;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.h-inspo {
+    text-align:center;
+    font-weight: 400;
+    font-size: 1.6rem;
+    
+/* identical to box height */
+
+
+    color: #000000;
+    margin-top: 2.438rem;
+    margin-bottom: 2.688rem;
+}
+
+.card-inspo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    justify-content: center;
+    max-width: 1440px;
+
+}
+
+
+@media (max-width: 946px) {
+
+    .inspo {
+        
+        
+        justify-content: center;
+
+    }
+
+    .h-inspo {
+        
+        
+        text-align:center;
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+    .card-inspo {
+        width: 300px;
+        align-items: center;
+        justify-content:center;
+        margin: 0 auto;
+        grid-template-columns: 100%;
+    }
+}
+
+@media (min-width: 657px) {
+    .card-inspo {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .card-inspo {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media (min-width: 1278px) {
+    .card-inspo {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

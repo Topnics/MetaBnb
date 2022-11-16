@@ -1,0 +1,37 @@
+.sponsor-wrapper{
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    max-width: 90rem;
+    height: 4.375rem;
+    margin-top: 4.188rem;
+    margin-bottom: 1.188rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+    align-content: center;
+}
+
+
+.sponsor-logo {
+    transform: scale(0.5);
+}
+
+@media (max-width: 946px) {
+
+    .sponsor-wrapper {
+        display: flex;
+        
+        flex-direction: column;
+        gap: 0rem;
+        /* margin: 0 */
+        height: auto;
+        align-items: center;
+    }
+    .sponsor-logo {
+        transform: scale(0.3);
+        
+    }
+
+}
+
+
+

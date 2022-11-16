@@ -1,0 +1,54 @@
+.footer {
+    max-width: 1440px;
+    height: 20.125rem;
+    display: flex;
+    gap: 11rem;
+    justify-content: space-between;
+    align-content: center;
+    padding: 63px 100px 0 100px;
+    background: #1D1D1E;
+    color: #F7F7F7;
+}
+
+.f-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2.281rem;
+}
+
+.copyryt {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.594rem;
+}
+
+.community, .places, .aboutUs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.fp-head {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+@media (max-width: 1278px) {
+    .footer {
+        flex-direction: column;
+        height: auto;
+        gap: 3rem;
+        align-items: center;
+        padding-bottom: 3rem;
+    }
+    .f-logo {
+        align-items: center;
+        gap: 2rem;
+    }
+}
