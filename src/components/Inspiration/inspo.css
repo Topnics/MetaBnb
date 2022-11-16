@@ -46,7 +46,7 @@
         font-size: 0.8rem;
     }
     .card-inspo {
-        width: 300px;
+        /* width: 300px; */
         align-items: center;
         justify-content:center;
         margin: 0 auto;
