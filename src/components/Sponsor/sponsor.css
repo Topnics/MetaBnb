@@ -15,7 +15,7 @@
     transform: scale(0.5);
 }
 
-@media (max-width: 946px) {
+@media (max-width: 1278px) {
 
     .sponsor-wrapper {
         display: flex;
