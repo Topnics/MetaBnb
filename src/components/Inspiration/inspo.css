@@ -47,9 +47,9 @@
     }
     .card-inspo {
         /* width: 300px; */
-        align-items: center;
+        /* align-items: center; */
         justify-content:center;
-        margin: 0 auto;
+        /* margin: 0 auto; */
         grid-template-columns: 100%;
     }
 }
